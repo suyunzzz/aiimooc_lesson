@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="pt_to_image" type="aiimooc_syz_node" pkg="aiimooc_syz" output="screen" respawn="false">
+		<rosparam file="$(find aiimooc_syz)/cfg/params.yaml" command="load"/>
+	</node>
+</launch>

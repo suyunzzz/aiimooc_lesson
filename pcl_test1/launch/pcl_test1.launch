@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="pcl_test1" type="pcl_test1_node" name="pcl_test_node" output="screen"/>
+</launch>
+
