@@ -54,6 +54,8 @@ class Pcl2ImgCore
         // Sensor min/max range
         float _min_range;
         float _max_range;
+
+        float _theta;
         Eigen::Affine3f camera_pose;  // 相机位姿，pcl生成depth_image函数会用到
 
         pcl::PointCloud<pcl::PointXYZ>::Ptr current_pc_ptr;  //转换后的点云数据 

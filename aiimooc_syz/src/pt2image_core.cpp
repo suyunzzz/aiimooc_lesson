@@ -17,6 +17,9 @@ Pcl2ImgCore::Pcl2ImgCore(ros::NodeHandle &nh):
 
     _min_range(0.5),
     _max_range(50),
+
+    _theta(0),  // 视角旋转角度，默认为0
+
     camera_pose(Eigen::Affine3f::Identity()),  // 相机位姿，pcl生成depth_image函数会用到
 
     range_image(new pcl::RangeImageSpherical),
@@ -105,6 +108,7 @@ void Pcl2ImgCore::point_cb(const sensor_msgs::PointCloud2ConstPtr & in_cloud_ptr
     std::cout<<"current_pc_ptr->header\n"<<current_pc_ptr->header<<std::endl;
     std::cout<<"range_image->header\n"<<range_image->header<<std::endl;
     std::cout<<"msg->header\n"<<msg->header<<std::endl;
+    std::cout<<"theta:\n"<<_theta<<std::endl;
 
     pub_Img_.publish(msg);
 
@@ -119,12 +123,18 @@ void Pcl2ImgCore::dynamic_callback(aiimooc_syz::RangeImageConfig &config, uint32
             _ang_res_y = config.ang_res_y;
             _max_ang_w = config.max_ang_w;
             _max_ang_h = config.max_ang_h;
+            _theta = config.theta_ViewPort;
+
+            // 使用这个回调函数改变cameraPose
+            float theta=pcl::deg2rad(_theta); // 转为弧度制
+            camera_pose.rotate(Eigen::AngleAxisf(theta,Eigen::Vector3f::UnitZ())); // 旋转
 
             // 打印
-            ROS_INFO("Reconfigure Request: %f %f %f %f ", 
+            ROS_INFO("Reconfigure Request: %f %f %f %f %f", 
                     config.ang_res_x, config.ang_res_y, 
                     config.max_ang_w,
-                    config.max_ang_h 
+                    config.max_ang_h,
+                    config.theta_ViewPort
                     );
         }
 
