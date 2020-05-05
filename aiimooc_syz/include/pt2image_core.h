@@ -29,11 +29,6 @@
 #include <dynamic_reconfigure/server.h>
 #include <aiimooc_syz/RangeImageConfig.h>  //dynamic reconfigure生成的头文件
 
-// namespace 
-// {
-//      typedef aiimooc_syz::RangeImageConfig conf;
-//      typedef dynamic_reconfigure::Server<conf>               RangeImageReconfServer;
-// }
 
 
 
