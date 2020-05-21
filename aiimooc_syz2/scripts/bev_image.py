@@ -3,9 +3,15 @@
 
 # import cv2 in conda rather than in ros
 import sys
-sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+# sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
 import cv2
-sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
+# sys.path.append('/opt/ros/kinetic/lib/python2.7/dist-packages')
+
+
+# import tf
+# print(tf.__file__)
+import cv_bridge
+print(cv_bridge.__file__)
 from cv_bridge import CvBridge
 import numpy as np
 import rospy
@@ -72,6 +78,6 @@ if __name__ == '__main__':
 	print("open3d:{}".format(open3d.__version__))
 	# cloud_subscribe()
 	pt2img=pt2brid_eye()
-	rospy.init_node('aiimooc_syz2')
+	rospy.init_node('bev_image')
 	rospy.spin()
 
