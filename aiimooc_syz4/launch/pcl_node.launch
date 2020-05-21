@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<launch>
+	<node name="lidar_pcl" type="aiimooc_syz4_node" pkg="aiimooc_syz4" output="screen" respawn="false">
+		
+	</node>
+
+	<node name="rviz" pkg="rviz" type="rviz" args="-d $(find aiimooc_syz4)/rviz/rslidar.rviz" required="true" />  
+	<!--node name="rviz" pkg="rviz" type="rviz"  required="true" /-->  
+</launch>
