@@ -20,7 +20,7 @@
 #include <std_msgs/Header.h>
 #include <sensor_msgs/image_encodings.h>
 #include <pcl_ros/point_cloud.h>
-#include <pcl_conversions/pcl_conversions.h>
+
 #include <image_transport/image_transport.h>
 
 #include <geometry_msgs/Pose.h>

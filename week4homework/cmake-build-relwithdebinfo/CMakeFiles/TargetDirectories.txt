@@ -1,0 +1,5 @@
+/home/s/CLionProjects/week4homework/cmake-build-relwithdebinfo/CMakeFiles/rebuild_cache.dir
+/home/s/CLionProjects/week4homework/cmake-build-relwithdebinfo/CMakeFiles/segment.dir
+/home/s/CLionProjects/week4homework/cmake-build-relwithdebinfo/CMakeFiles/ground_plane_fit.dir
+/home/s/CLionProjects/week4homework/cmake-build-relwithdebinfo/CMakeFiles/seu_test.dir
+/home/s/CLionProjects/week4homework/cmake-build-relwithdebinfo/CMakeFiles/edit_cache.dir

@@ -1,0 +1,38 @@
+/home/s/下载/clion-2020.1/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/s/CLionProjects/week4homework
+-- Eigen found (include: /usr/include/eigen3, version: 3.2.92)
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+** WARNING ** io features related to pcap will be disabled
+** WARNING ** io features related to png will be disabled
+** WARNING ** io features related to libusb-1.0 will be disabled
+-- OpenNI found (include: /usr/include/ni, lib: /usr/lib/libOpenNI.so)
+-- OpenNI2 found (include: /usr/include/openni2, lib: /usr/lib/libOpenNI2.so)
+-- looking for PCL_COMPONENT
+-- Could NOT find PCL_COMPONENT (missing: PCL_COMPONENT_LIBRARY PCL_COMPONENT_INCLUDE_DIR) 
+-- looking for PCL_COMMON
+-- looking for PCL_OCTREE
+-- looking for PCL_IO
+-- looking for PCL_KDTREE
+-- looking for PCL_SEARCH
+-- looking for PCL_SAMPLE_CONSENSUS
+-- looking for PCL_FILTERS
+-- looking for PCL_GEOMETRY
+-- looking for PCL_VISUALIZATION
+-- looking for PCL_2D
+-- looking for PCL_FEATURES
+-- looking for PCL_ML
+-- looking for PCL_SEGMENTATION
+
+--------------------------------------------------------
+
+PCL	1.9.1.99	FOUND!
+PCL_INCLUDE_DIRS:/usr/include/pcl-1.9/usr/include/eigen3/usr/include/usr/include/pcl-1.7/usr/include/ni/usr/include/openni2/usr/include/vtk-6.2/usr/include/freetype2/usr/include/x86_64-linux-gnu/freetype2/usr/include/x86_64-linux-gnu/usr/include/jsoncpp
+
+PCL_LIBRARY_DIRS:/usr/lib
+
+PCL_DEFINITIONS:-DDISABLE_PCAP-DDISABLE_PNG-DDISABLE_LIBUSB_1_0
+PCL_LIBRARIES:pcl_commonpcl_octreepcl_iopcl_kdtreepcl_searchpcl_sample_consensuspcl_filterspcl_visualizationpcl_featurespcl_mlpcl_segmentation/usr/lib/x86_64-linux-gnu/libboost_system.so/usr/lib/x86_64-linux-gnu/libboost_filesystem.so/usr/lib/x86_64-linux-gnu/libboost_date_time.so/usr/lib/x86_64-linux-gnu/libboost_iostreams.so/usr/lib/x86_64-linux-gnu/libboost_serialization.so/usr/lib/x86_64-linux-gnu/libboost_chrono.so/usr/lib/x86_64-linux-gnu/libboost_regex.so/usr/lib/libOpenNI.so/usr/lib/libOpenNI2.sovtkChartsCorevtkCommonColorvtkCommonDataModelvtkCommonMathvtkCommonCorevtksysvtkCommonMiscvtkCommonSystemvtkCommonTransformsvtkInfovisCorevtkFiltersExtractionvtkCommonExecutionModelvtkFiltersCorevtkFiltersGeneralvtkCommonComputationalGeometryvtkFiltersStatisticsvtkImagingFouriervtkImagingCorevtkalglibvtkRenderingContext2DvtkRenderingCorevtkFiltersGeometryvtkFiltersSourcesvtkRenderingFreeType/usr/lib/x86_64-linux-gnu/libfreetype.so/usr/lib/x86_64-linux-gnu/libz.sovtkftglvtkFiltersModelingvtkImagingSourcesvtkInteractionStylevtkInteractionWidgetsvtkFiltersHybridvtkImagingGeneralvtkImagingHybridvtkIOImagevtkDICOMParservtkIOCorevtkmetaio/usr/lib/x86_64-linux-gnu/libjpeg.so/usr/lib/x86_64-linux-gnu/libpng.so/usr/lib/x86_64-linux-gnu/libtiff.sovtkRenderingAnnotationvtkImagingColorvtkRenderingVolumevtkIOGeometry/usr/lib/x86_64-linux-gnu/libjsoncpp.sovtkIOLegacyvtkIOPLYvtkRenderingLODvtkViewsContext2DvtkViewsCorevtkRenderingContextOpenGLvtkRenderingOpenGLFLANN::FLANN
+-------------------------------------------------------------
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/s/CLionProjects/week4homework/cmake-build-debug

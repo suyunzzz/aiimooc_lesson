@@ -1,0 +1,5 @@
+/home/s/CLionProjects/week4homework/release/CMakeFiles/edit_cache.dir
+/home/s/CLionProjects/week4homework/release/CMakeFiles/segment.dir
+/home/s/CLionProjects/week4homework/release/CMakeFiles/ground_plane_fit.dir
+/home/s/CLionProjects/week4homework/release/CMakeFiles/seu_test.dir
+/home/s/CLionProjects/week4homework/release/CMakeFiles/rebuild_cache.dir

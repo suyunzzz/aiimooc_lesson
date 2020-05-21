@@ -34,7 +34,7 @@ catkin_package(
 include_directories(
  include
  ${catkin_INCLUDE_DIRS}
- ${PCL_INCLUDE_DORS}
+ ${PCL_INCLUDE_DIRS}
  ${OpenCV_INCLUDE_DIRS}
 )
 link_directories(${PCL_LIBRARY_DIRS})
