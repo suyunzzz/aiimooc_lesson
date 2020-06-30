@@ -9,3 +9,4 @@
 - aiimooc_syz5 实现了使用ndt构建简单的激光里程计（无后端优化）
 - 第六周作业：提取关键点并显示
 - 第七周作业：mlp+cnn实现MNIST数字识别
+- 第八周作业：pointnet+pointnet2
