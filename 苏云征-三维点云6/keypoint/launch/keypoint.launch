@@ -1,7 +1,0 @@
-<launch>
-    <node pkg="week6homework" type="keypoint_node" name="keypoint_node" output="screen"/>
-    <node name="rviz" pkg="rviz" type="rviz" args="-d $(find week6homework)/config/keypoint.rviz" required="true" />  
-
-    <!-- <node name="rviz" pkg="rviz" type="rviz"  required="true" /> -->
-
-</launch>
