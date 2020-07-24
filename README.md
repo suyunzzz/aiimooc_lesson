@@ -10,3 +10,4 @@
 - 第六周作业：提取关键点并显示
 - 第七周作业：mlp+cnn实现MNIST数字识别
 - 第八周作业：pointnet+pointnet2
+- 第九周作业：dgcnn
