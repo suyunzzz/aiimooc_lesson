@@ -1,0 +1,2 @@
+Namespace(batch_size=16, data='data_preprocessing/data_processed_maxcut_35_20k_2k_8192', dataset='flying_things_dataset', gpu=0, log_dir='log_evaluate', model='model_concat_upsa', model_path='log_train/model.ckpt', num_point=2048)
+pid: 4652

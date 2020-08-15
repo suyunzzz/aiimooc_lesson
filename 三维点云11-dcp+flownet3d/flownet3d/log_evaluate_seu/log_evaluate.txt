@@ -1,0 +1,5 @@
+Namespace(batch_size=1, data='kitti_rm_ground', dataset='kitti_dataset', gpu=0, log_dir='log_evaluate_seu', model='model_concat_upsa_eval_kitti', model_path='log_train/model.ckpt', num_point=16384)
+pid: 6566
+Model restored.
+2020-08-15 17:14:49.588995
+---- EVALUATION ----

@@ -1,0 +1,24 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: 当前文件",
+            "type": "python",
+            "request": "launch",
+            "program": "${file}",
+            "console": "integratedTerminal",
+            "args": ["--model=model_concat_upsa_eval_kitti",
+                    "--gpu=0",
+                    "--dataset=kitti_dataset" ,
+                    "--data=kitti_rm_ground",
+                    "--log_dir=log_evaluate", 
+                    "--model_path=log_train/model.ckpt", 
+                    "--num_point=16384", 
+                    "--batch_size=1", 
+            ]
+        }
+    ]
+}

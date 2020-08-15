@@ -1,0 +1,30 @@
+---------Params--------------
+num_iter:3
+num_lpr:20
+th_seeds:0.7
+th_dist:0.45
+Testing IO for point cloud ...
+read data:/media/s/TOSHIBA/睿慕课/11/suyunzzz-三维点云11/flownet3d/seu_pcd/data/f0.pcd
+cloud_in shape:(50458, 3)
+PointCloud copy done
+ -----------iter [1]------------
+self.__normal shape:(3, 1)
+normals:[[3.67705241e-03 8.09731577e-05 9.99993236e-01]]
+Iter [1], ground:9023, no_ground:41435
+-----------visualization done--------------
+/media/s/TOSHIBA/睿慕课/11/suyunzzz-三维点云11/flownet3d/seu_pcd/data/f0/ground1.pcd saved
+/media/s/TOSHIBA/睿慕课/11/suyunzzz-三维点云11/flownet3d/seu_pcd/data/f0/no_ground1.pcd saved
+ -----------iter [2]------------
+self.__normal shape:(3, 1)
+normals:[[0.00740784 0.00341121 0.99996674]]
+Iter [2], ground:19115, no_ground:31343
+-----------visualization done--------------
+/media/s/TOSHIBA/睿慕课/11/suyunzzz-三维点云11/flownet3d/seu_pcd/data/f0/ground2.pcd saved
+/media/s/TOSHIBA/睿慕课/11/suyunzzz-三维点云11/flownet3d/seu_pcd/data/f0/no_ground2.pcd saved
+ -----------iter [3]------------
+self.__normal shape:(3, 1)
+normals:[[0.01041408 0.00839213 0.99991056]]
+Iter [3], ground:21175, no_ground:29283
+-----------visualization done--------------
+/media/s/TOSHIBA/睿慕课/11/suyunzzz-三维点云11/flownet3d/seu_pcd/data/f0/ground3.pcd saved
+/media/s/TOSHIBA/睿慕课/11/suyunzzz-三维点云11/flownet3d/seu_pcd/data/f0/no_ground3.pcd saved
